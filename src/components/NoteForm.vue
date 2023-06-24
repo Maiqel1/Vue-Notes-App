@@ -12,7 +12,6 @@
         </div>
         <div class="mb-3">
           <div>{{ wordCount }} words</div>
-          <div class="word-counter">{{ 1000 - wordCount }} words remaining</div>
         </div>
         <button type="submit" class="btn btn-primary">{{ isNewNote ? 'Create Note' : 'Save Note' }}</button>
       </form>
