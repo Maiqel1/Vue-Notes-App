@@ -11,7 +11,7 @@
           <textarea id="description" class="form-control" v-model="currentNote.description" required></textarea>
         </div>
         <div class="mb-3">
-          <div>{{ wordCount }} words</div>
+          <div>{{ wordCount}} words</div>
         </div>
         <button type="submit" class="btn btn-primary">{{ isNewNote ? 'Create Note' : 'Save Note' }}</button>
       </form>
